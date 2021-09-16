@@ -60,7 +60,7 @@ def takeInput():
 
         else:
             tail.next = newNode
-            tail = newNode
+            tail = newNode                   # Don't get confused this just shifts the pointer "tail" to the end of list everytime
 
         i += 1
 
